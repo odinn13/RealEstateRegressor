@@ -1,0 +1,16 @@
+Use visir_real_estate_regressor.py to predict prices on fasteignir.visir.is
+Use scrape to update visir dataset.
+
+
+python3 real_estate_regressor.py
+
+parameters:
+
+all: Run experiment on all data in data set, else only the year 2019 will be slected.
+
+report: Only run report and generate data exploraiton.
+
+predict_square_price: default false and will predict price of house "nuvirdi".
+
+
+
